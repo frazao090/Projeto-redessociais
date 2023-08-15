@@ -35,15 +35,16 @@ section#telefone {
 }
 iframe {
     position: relative;
-    left: 0px;
-    top: 50px;
+    left: -0.9px;
+    top: 48px;
     height: 305px;
-    width: 170px;
+    width: 173px;
+    border-radius: 2px black;
     
 }
 
 section#redes-sociais img {
-    width: 50px;
+    width: 45px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
@@ -59,3 +60,4 @@ img:hover {
    transition: transform .4s border 1s;
    transform: translate(-2px, -2px);
 }
+
