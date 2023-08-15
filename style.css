@@ -1,2 +1,43 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+html, body {
+
+    height: 103vh;
+    width: 100vw;
+    background-color: black;
+}
+main{
+    height: 100vh;
+    position: relative;
+}
+body {
+    background:url("..//Projeto-redessociais/pacote-d013/pacote-d013/imagens/fundo-madeira.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#telefone {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 403px;
+  width: 200px;
+  background: url("..//Projeto-redessociais/pacote-d013/pacote-d013/imagens/frame-iphone4.png") no-repeat;
+ 
+}
+iframe {
+    position: relative;
+    left: 0px;
+    top: 50px;
+    height: 305px;
+    width: 170px;
+    
+}
